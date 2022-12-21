@@ -1,0 +1,125 @@
+/* @theme TsinghuaPPT */
+
+@charset "UTF-8";
+@import 'uncover';
+
+/* @import-theme 'default'; */
+
+
+section {
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 45px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url('./title2.jpg') ;
+    /* background-repeat:no-repeat; */
+    /* background-attachment:fixed; */
+    /* background-position:center; */
+    /* margin-top: 40px; */
+    padding-top: 75px;
+   }
+
+h1 {
+text-align:left;
+color: rgb(146, 46, 142);
+margin-top: 20px;
+margin-bottom: 20px;
+font-size:40px;
+line-height: 25px;
+}
+
+h2 {
+text-align:left;
+margin-top: 12px;
+font-size: 30px;
+line-height: 25px;
+margin-bottom: 15px;
+}
+ 
+h3 {
+  text-align:left;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-size: 27px;
+  line-height: 25px;
+  }
+
+p {
+  text-align:left;
+  font-size: 22px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  /* text-indent: 50px; */
+}
+
+header {
+  left: 57px;
+  right: 50px;
+  top: 15px;
+  height: 50px;
+  /* background-image: url("./header.png"); 
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* background-size: 200px; */
+  text-align:left;
+  color: rgb(146, 46, 142);
+  font-weight: bold;
+  font-size:40px;
+}
+
+footer {
+  height: auto;
+  font-size:28px;
+  border-color: rgb(146, 46, 142);
+  /* border: 10px; */
+  border-width: 4px;
+  border-style: solid;
+  font-weight: bold;
+  list-style-type: square;
+  content: 'shsh';
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: rgb(37, 64, 97);
+  /* display:inline-block; */
+}
+
+/* blockquote {
+  background-color: rgba(231,247,239,1.0);
+  padding: 10px;
+  padding-inline-start: 20px;
+  border-radius: 10px;
+} */
+
+
+blockquote {
+  background: rgba(173, 216, 230, 0.15);
+  border-left: 10px solid rgb(173, 216, 230);
+  /* margin: 1.5em 10px; */
+  padding: 0.5em 10px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  /* quotes: "\201C""\201D""\2018""\2019"; */
+}
+blockquote:before {
+  color: #ccc;
+  content: none;
+  /* font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em; */
+}
+blockquote:after {
+  color: #ccc;
+  content: none;
+  /* font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em; */
+}
+blockquote p {
+  display: inline;
+}

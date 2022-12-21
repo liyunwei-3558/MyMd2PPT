@@ -1,0 +1,6 @@
+{
+    "markdown.marp.themes": [
+    // "C:/Users/10840/Desktop/codes/marpcss/try.css",
+    "./themes/tsinghuappt.css",
+    ]
+}
